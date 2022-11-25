@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ### SQL ###
-!**/src//resources/data.sql
+!**/src/resources/data.sql
