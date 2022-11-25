@@ -1,6 +1,6 @@
-# api-harry-potter
+# https://alfemodev.com
 
-###Harry Potter API-REST application,
+# Harry Potter API-REST application,
 with characters, spells and teachers.  A customized application to enjoy it and perform exercises.
 
 <h6 align="center"> Tools used : </6>
