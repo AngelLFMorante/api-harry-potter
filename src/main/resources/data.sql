@@ -1,91 +1,111 @@
 --SPELLS
-INSERT INTO SPELLS (name, description, damage) VALUES ('Aberto', 'Opens locked doors', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Accio', 'Summons objects', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Aberto', 'Opens locked doors', 5);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Accio', 'Summons objects', 46);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Aguamenti', 'Summons water', 21);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Alohomora', 'Unlocks objects', 15);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Anapneo', 'Clears someone airway', 33);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Aparecium', 'Reveals secret written messages', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Apparate', 'A non-verbal transportation spell that allows a witch or wizard to instantly travel on the spot and appear at another location (disapparate is the opposite)', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Ascendio', 'Propells someone into the air', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Aparecium', 'Reveals secret written messages', 4);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Apparate', 'A non-verbal transportation spell that allows a witch or wizard to instantly travel on the spot and appear at another location (disapparate is the opposite)', 34);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Ascendio', 'Propells someone into the air', 28);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Avada Kedavra', 'Also known as The Killing Curse, the most evil spell in the Wizarding World; one of three Unforgivable Curses; Harry Potter is the only known witch or wizard to survive it', 99);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Avis', 'Conjures a small flock of birds', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Bat', 'Bogey Hex - Turns the targets boogers into bats', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Bombardo', 'Creates an explosion', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Brackium Emendo', 'Heals broken bones', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Avis', 'Conjures a small flock of birds', 65);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Bat', 'Bogey Hex - Turns the targets boogers into bats', 27);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Bombardo', 'Creates an explosion', 41);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Brackium Emendo', 'Heals broken bones', 65);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Bubble-Head Charm', 'A charm that produced a bubble around the head of the caster, giving them a continuous supply of oxygen, allowing them to breathe where they could not otherwise', 40);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Capacious Extremis', 'Known as the Extension Charm, its a complicated spell that can greatly expand or extend the capacity of an object or space without affecting it externally', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Capacious Extremis', 'Known as the Extension Charm, its a complicated spell that can greatly expand or extend the capacity of an object or space without affecting it externally', 81);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Caterwauling Charm', 'A charm that caused any unauthorised person entering the perimeter of a certain area to set off an "alarm" which made a high-pitched scream', 43);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Colloportus', 'A charm that locked doors, making it so that they could not be opened manually', 23);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Confundo', 'Known as the Confundus Charm, it causes confusion of the target', 61);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Conjunctivitis Curse', 'Affects the eyes and sight of a target', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Crinus Muto', 'Changes hair color and style', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Conjunctivitis Curse', 'Affects the eyes and sight of a target', 53);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Crinus Muto', 'Changes hair color and style', 33);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Crucio', 'One of three Unforgivable Curses, it causes unbearable pain in the target', 89);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Diffindo', 'Used to precisely cut an object', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Disapparate', 'A non-verbal transportation spell that allows a witch or wizard to instantly travel on the spot and leave for another location (apparate is the opposite)', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Disillusionment Charm', 'Causes the target to take on the appearance of its surroundings', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Diffindo', 'Used to precisely cut an object', 83);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Disapparate', 'A non-verbal transportation spell that allows a witch or wizard to instantly travel on the spot and leave for another location (apparate is the opposite)', 75);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Disillusionment Charm', 'Causes the target to take on the appearance of its surroundings', 27);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Engorgio', 'Causes rapid growth in the targeted object', 77);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Episkey', 'Heals minor injuries', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Erecto', 'Allows a witch or wizard to build a structure, like a tent', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Evanesco', 'Vanishes objects', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Episkey', 'Heals minor injuries', 42);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Erecto', 'Allows a witch or wizard to build a structure, like a tent', 70);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Evanesco', 'Vanishes objects', 35);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Expecto Patronum', 'The Patronus Charm is a powerful projection of hope and happiness that drives away Dementors; a corpeal Patronus takes the the respective animal form of the caster, while a non-corpeal appears as a wisp of light; at 13, Harry Potter was the youngest known witch or wizard to prouduce a corpeal Patronus',79);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Expelliarmus', 'Forces an opponent to drop whatevers in their possession', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Ferula', 'A healing charm that conjures wraps and bandages for wounds', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Fidelius Charm', 'A complex charm that conceals a secret into the soul of a chosen "Secret Keeper". If a location is the subject of concealment, it becomes undetectable to others', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Fiendfyre Curse', 'Conjures destructive, enormous enchanted flames', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Finite Incantatem', 'A general counter-spell thats used to reverse or counter already cast charms', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Furnunculus Curse', 'A jinx that causes a breakout of boils or pimples', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Geminio', 'Duplicates objects', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Glisseo', 'Transforms a staircase into a slide', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Homenum Revelio', 'Reveals the presence of another person', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Homonculus Charm', 'Detects anyones true identity and location on a piece of parchment; used to create the Marauders Map', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Immobulus', 'Immobilises living targets', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Impedimenta', 'A temporary jinx that slows the movement of the target', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Expelliarmus', 'Forces an opponent to drop whatevers in their possession', 47);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Ferula', 'A healing charm that conjures wraps and bandages for wounds', 5);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Fidelius Charm', 'A complex charm that conceals a secret into the soul of a chosen "Secret Keeper". If a location is the subject of concealment, it becomes undetectable to others', 5);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Fiendfyre Curse', 'Conjures destructive, enormous enchanted flames', 68);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Finite Incantatem', 'A general counter-spell thats used to reverse or counter already cast charms', 49);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Furnunculus Curse', 'A jinx that causes a breakout of boils or pimples', 57);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Geminio', 'Duplicates objects', 30);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Glisseo', 'Transforms a staircase into a slide', 67);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Homenum Revelio', 'Reveals the presence of another person', 14);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Homonculus Charm', 'Detects anyones true identity and location on a piece of parchment; used to create the Marauders Map', 60);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Immobulus', 'Immobilises living targets', 10);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Impedimenta', 'A temporary jinx that slows the movement of the target', 64);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Imperio', 'One of the three Unforgivable Curses, it places the target under the complete control of the caster', 85);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Impervius', 'Makes an object waterproof', 35);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Incarcerous', 'Conjures ropes', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Incendio', 'Conjures flames', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Langlock', 'Causes the targets tongue to stick to the roof of their mouth', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Legilimens', 'Invading or navigating anothers mind', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Incarcerous', 'Conjures ropes', 8);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Incendio', 'Conjures flames', 79);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Langlock', 'Causes the targets tongue to stick to the roof of their mouth', 87);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Legilimens', 'Invading or navigating anothers mind', 73);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Levicorpus', 'Levitates the target by their ankle', 37);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Locomotor Mortis', 'The Leg-Locker curse bounds the targets legs', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Lumos', 'Illuminates the casters wand', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Morsmordre', 'Conjures and projects Lord Voldemorts Dark Mark', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Mucus Ad Nauseam', 'Inflicts an extreme runny nose or cold', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Locomotor Mortis', 'The Leg-Locker curse bounds the targets legs', 77);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Lumos', 'Illuminates the casters wand', 64);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Morsmordre', 'Conjures and projects Lord Voldemorts Dark Mark', 92);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Mucus Ad Nauseam', 'Inflicts an extreme runny nose or cold', 86);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Muffliato', 'A charm used to fill the ears of any person in the vicinity of the caster with an unidentifiable buzzing sound so as to allow for conversation without being overheard , similar to the Imperturbable Charm', 28);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Nox', 'Reverses the lumos charm, extinguishing a wands light', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Obliviate', 'Erases the targets memory', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Obscuro"', 'Conjures a blindfold', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Oculus Reparo', 'Repairs eyeglasses', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Oppugno', 'Directs an object or person to attack a victim', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Periculum', 'Conjures flares/red sparks', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Nox', 'Reverses the lumos charm, extinguishing a wands light', 3);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Obliviate', 'Erases the targets memory', 75);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Obscuro"', 'Conjures a blindfold', 28);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Oculus Reparo', 'Repairs eyeglasses', 72);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Oppugno', 'Directs an object or person to attack a victim', 46);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Periculum', 'Conjures flares/red sparks', 72);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Petrificus Totalus', 'A curse that could be used to paralyse up to at least three targets', 54);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Piertotum Locomotor', 'Incantation used to bring to life inanimate objects and artifacts', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Piertotum Locomotor', 'Incantation used to bring to life inanimate objects and artifacts', 36);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Priori Incantato', 'A spell that forced a wand to show an "echo" of the last spell it had performed', 50);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Protean Charm', 'Links objects together for better communication', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Protego', 'Casts an invisible shield around the caster, protecting against spells and objects (except for The Killing Curse)', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Reducio', 'Shrinks an enlarged object to its regular size', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Protean Charm', 'Links objects together for better communication', 26);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Protego', 'Casts an invisible shield around the caster, protecting against spells and objects (except for The Killing Curse)', 77);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Reducio', 'Shrinks an enlarged object to its regular size', 55);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Reducto', 'Reduces the target to pieces', 72);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Relashio', 'A charm that forces the target to release its hold on some object', 80);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Renneverate', 'Awakens or revives the target', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Reparifors', 'Heals magical ailments like poisoning or paralysis', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Reparo', 'Fixes broken objects', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Renneverate', 'Awakens or revives the target', 5);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Reparifors', 'Heals magical ailments like poisoning or paralysis', 30);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Reparo', 'Fixes broken objects', 1);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Revelio', 'Used to reveal hidden objects messages, invisible things and secret passageways', 10);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Rictusempra', 'A charm that disarms an opponent by tickling them', 29);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Riddikulus','Used to defeat a Boggart, the charm allows the scary creature to assume a comedic form, disarming it', 5);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Scourgify', 'Cleans objects', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Scourgify', 'Cleans objects', 31);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Sectumsempra', 'Was a curse invented by Professor Severus Snape that lacerates the target and causes severe haemorrhaging', 78);
-INSERT INTO SPELLS (name, description, damage) VALUES ('Serpensortia', 'Conjures a live snake', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Silencio', 'Silences the target', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Sonorus', 'Amplifies the witch or wizards voice', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Spongify', 'Softens the target', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Stupefy', 'The Stunning spell freezes objects and renders living targets unconscious', );
-INSERT INTO SPELLS (name, description, damage) VALUES ('Tarantallegra', 'Aimed at the legs, causes uncontrollable dancing movement', );
+INSERT INTO SPELLS (name, description, damage) VALUES ('Serpensortia', 'Conjures a live snake', 33);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Silencio', 'Silences the target', 33);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Sonorus', 'Amplifies the witch or wizards voice', 72);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Spongify', 'Softens the target', 73);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Stupefy', 'The Stunning spell freezes objects and renders living targets unconscious', 15);
+INSERT INTO SPELLS (name, description, damage) VALUES ('Tarantallegra', 'Aimed at the legs, causes uncontrollable dancing movement', 47);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Taboo', 'A powerful jinx which designated a word as a key to revealing the speakers location', 49);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Unbreakable Vow', 'A magically binding contract that results in the death of whoever breaks it', 90);
 INSERT INTO SPELLS (name, description, damage) VALUES ('Wingardium Leviosa', 'Causes an object to levitate',55);
 
---CHARACTERS
-INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, image, attack, defense) VALUES ('Harry Potter', 'Human', 'Male', 'Gryffindor', 1, 1, 0, 'harry.jpg', 59, 36);
+--CHARACTERS GRIFFINDOR
+--STUDIENTS
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, image, attack, defense) VALUES ('Harry Potter', 'Human', 'Male', 'Gryffindor', 1, 1, 0, 'harry.jpg', 36, 38);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, image, attack, defense) VALUES ('Hermione Granger', 'Human', 'Female', 'Gryffindor', 1, 1, 0, 'hermione.jpg', 25, 35);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, image, attack, defense) VALUES ('Ron Weasley', 'Human', 'Male', 'Gryffindor', 1, 1, 0, 'ronWeasley.jpg', 15, 22);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, image, attack, defense) VALUES ('Neville Longbottom', 'Human', 'Male', 'Gryffindor', 1, 1, 0, 'NevilleLongbottom.jpg', 10, 20);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, image, attack, defense) VALUES ('Ginny Weasley', 'Human', 'Female', 'Gryffindor', 1, 1, 0, 'ginnyWeasley.jpg', 6, 15);
+--STAFF
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, image, attack, defense) VALUES ('Minerva McGonagall', 'Human', 'Female', 'Gryffindor', 1, 0, 1, 'mcGonagall.jpg', 67, 78);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, image, attack, defense) VALUES ('Rubeus Hagrid', 'Human', 'Male', 'Gryffindor', 1, 0, 1, 'hagrid.jpg', 55, 65);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, image, attack, defense) VALUES ('Sirius Black', 'Human', 'Male', 'Gryffindor', 1, 0, 0, 'sirius.jpg', 46, 50);
+
+--CHARACTERS RAVENCLAW
+
+
+--CHARACTERS HUFFLEPUFF
+
+
+--CHARACTERS SLYTHERIN
+
+
+
 
 
 --CHARACTERS_SPELLS
