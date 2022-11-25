@@ -1,7 +1,7 @@
 # api-harry-potter
 Harry Potter API-REST application, with characters, spells and teachers.  A customized application to enjoy it and perform exercises.
 <p align="center"> Tools used : </p>
-<div>
+<div style="display: inline-block">
  <code><img width="10%" src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"></code>
 
  <!--INTELLIJ-->
