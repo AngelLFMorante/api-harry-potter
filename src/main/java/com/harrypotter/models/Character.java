@@ -28,6 +28,7 @@ public class Character implements Serializable {
     private boolean wizard;
     private boolean hogwartsStudent;
     private boolean hogwartsStaff;
+    private boolean alive;
     private String image;
     private int attack;
     private int defense;
