@@ -155,6 +155,20 @@ INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, 
 
 
 --CHARACTERS HUFFLEPUFF
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Cedric Diggory', 'Human', 'Male', 'Hufflepuff', 1, 1, 0, 0,'cedricDiggory.jpg', 29, 15);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Justin Finch-Fletchley', 'Human', 'Male', 'Hufflepuff', 1, 1, 0, 1,'justinFinchFletchley.jpg', 6, 9);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Ernie Macmillan', 'Human', 'Male', 'Hufflepuff', 1, 1, 0, 1,'ernieMacmillan.jpg', 4, 1);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Owen Cauldwell', 'Human', 'Male', 'Hufflepuff', 1, 1, 0, 1,'owenCauldwell.jpg', 10, 7);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Kevin Whitby', 'Human', 'Male', 'Hufflepuff', 1, 1, 0, 1,'kevinWhitby.jpg', 5, 2);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Cadwallader', 'Human', 'Male', 'Hufflepuff', 1, 1, 0, 1,'cadwallader.jpg', 9, 5);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Summer', 'Human', 'Male', 'Hufflepuff', 1, 1, 0, 1,'summer.jpg', 3, 2);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Summerby', 'Human', 'Male', 'Hufflepuff', 1, 1, 0, 1,'summerby.jpg', 5, 4);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Hannah Abbott', 'Human', 'Female', 'Hufflepuff', 1, 1, 0, 1,'hannahAbbott.jpg', 10, 8);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Susan Bones', 'Human', 'Female', 'Hufflepuff', 1, 1, 0, 1,'susanBones.jpg', 7, 8);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Eleanor Branstone', 'Human', 'Female', 'Hufflepuff', 1, 1, 0, 1,'eleanorBranstone.jpg', 9, 9);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Laura Madley', 'Human', 'Female', 'Hufflepuff', 1, 1, 0, 1,'lauraMadley.jpg', 2, 11);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Rose Zeller', 'Human', 'Female', 'Hufflepuff', 1, 1, 0, 1,'roseZeller.jpg', 11, 11);
+INSERT INTO CHARACTERS (name, species, gender, house, wizard, hogwarts_student, hogwarts_staff, alive, image, attack, defense) VALUES ('Leanne', 'Human', 'Female', 'Hufflepuff', 1, 1, 0, 1,'leanne.jpg', 7, 1);
 
 
 --CHARACTERS SLYTHERIN
