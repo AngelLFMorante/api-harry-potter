@@ -14,8 +14,8 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "CHARACTERS")
-public class Character implements Serializable {
+@Table(name = "ACTORS")
+public class Actor implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -33,7 +33,7 @@ public class Character implements Serializable {
     private int attack;
     private int defense;
 
-    @ManyToMany(mappedBy = "characters", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @ManyToMany(mappedBy = "actors", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JsonManagedReference
     private List<Spells> spells  = new ArrayList<>();
 }

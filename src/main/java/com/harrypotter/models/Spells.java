@@ -27,9 +27,9 @@ public class Spells implements Serializable {
 
     @ManyToMany
     @JsonBackReference
-    @JoinTable(name = "character_spell",
+    @JoinTable(name = "actor_spell",
             joinColumns = {@JoinColumn(name = "spell_id")},
-            inverseJoinColumns = {@JoinColumn(name = "character_id")}
+            inverseJoinColumns = {@JoinColumn(name = "actor_id")}
     )
-    private List<Character> characters = new ArrayList<>();
+    private List<Actor> actors = new ArrayList<>();
 }
