@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ActorServices {
@@ -15,5 +16,9 @@ public class ActorServices {
 
     public List<Actor> findAll(){
         return  iCharacterRepository.findAll();
+    }
+
+    public Optional<Actor> findById(Long id){
+        return iCharacterRepository.findById(id);
     }
 }
