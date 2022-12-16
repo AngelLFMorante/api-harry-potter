@@ -612,6 +612,3 @@ INSERT INTO ACTOR_SPELL (spell_id, actor_id) VALUES (43, 125);
 INSERT INTO ACTOR_SPELL (spell_id, actor_id) VALUES (10, 125);
 INSERT INTO ACTOR_SPELL (spell_id, actor_id) VALUES (25, 125);
 INSERT INTO ACTOR_SPELL (spell_id, actor_id) VALUES (39, 125);
-
-
-
