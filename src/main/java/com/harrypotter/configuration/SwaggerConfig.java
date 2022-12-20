@@ -34,7 +34,7 @@ public class SwaggerConfig {
                 .description("Harry Potter API-REST application, with characters, spells and teachers.  " +
                         "A customized application to enjoy it and perform exercises.")
                 .version("v1.0")
-                .contact(new Contact("Ángel Luis Fernández Morante", "https://www.alfemodev.com", "alfemodev@gmail.com"))
+                .contact(new Contact("Ángel Luis Fernández Morante", "https://www.alfemodev.com", "contact@alfemodev.com"))
                 .build();
     }
 }
