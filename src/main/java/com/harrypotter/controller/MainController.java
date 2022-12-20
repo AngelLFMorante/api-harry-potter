@@ -6,6 +6,7 @@ import com.harrypotter.errors.ApiError;
 import com.harrypotter.models.Actor;
 import com.harrypotter.services.ActorServices;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,7 +48,7 @@ public class MainController {
             @ApiResponse(code=500, message = "Internal Server Error", response = ApiError.class),
     })
     @GetMapping("/character/{id}")
-    public Actor getOneCharacter(@PathVariable Long id){
+    public Actor getOneCharacter(@ApiParam(value = "Character ID", required = true, type = "Long") @PathVariable Long id){
         return actorServices.findById(id).orElseThrow(() -> new ActorNotFoundException(id));
     }
 
