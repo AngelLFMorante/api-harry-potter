@@ -1,6 +1,5 @@
 package com.harrypotter.controller;
 
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.harrypotter.errors.ActorNotFoundException;
 import com.harrypotter.errors.ApiError;
 import com.harrypotter.models.Actor;
@@ -10,14 +9,11 @@ import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -45,31 +41,11 @@ public class MainController {
     @ApiResponses(value = {
             @ApiResponse(code=200, message = "OK", response = Actor.class),
             @ApiResponse(code=404, message = "Not Found", response = ActorNotFoundException.class),
+            @ApiResponse(code=400, message = "Bad Request", response = ApiError.class),
             @ApiResponse(code=500, message = "Internal Server Error", response = ApiError.class),
     })
     @GetMapping("/character/{id}")
     public Actor getOneCharacter(@ApiParam(value = "Character ID", required = true, type = "Long") @PathVariable Long id){
         return actorServices.findById(id).orElseThrow(() -> new ActorNotFoundException(id));
     }
-
-    //Exceptions
-    @ExceptionHandler(ActorNotFoundException.class)
-    public ResponseEntity<ApiError> handleActorNotFound(ActorNotFoundException ex){
-        ApiError apiError = new ApiError();
-        apiError.setState(HttpStatus.NOT_FOUND);
-        apiError.setDateNow(LocalDateTime.now());
-        apiError.setMessage(ex.getMessage());
-        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(apiError);
-    }
-
-    @ExceptionHandler(JsonMappingException.class)
-    public ResponseEntity<ApiError> handleBadRequestJsonMapping(JsonMappingException ex){
-        ApiError apiError = new ApiError();
-        apiError.setState(HttpStatus.BAD_REQUEST);
-        apiError.setDateNow(LocalDateTime.now());
-        apiError.setMessage(ex.getMessage());
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(apiError);
-    }
-
-
 }
